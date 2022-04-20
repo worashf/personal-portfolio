@@ -78,3 +78,19 @@ html {
     color: #fff;
     margin: 10px 0;
   }
+  .head-line ul.social {
+    display: flex;
+    list-style: none;
+  }
+  
+  .social li {
+    margin: 5px 10px;
+  
+  }
+  
+  .social li img.vector {
+    left: 63.62%;
+    right: -9.24%;
+    top: 30%;
+    bottom: -13.36%;
+  }
