@@ -1,114 +1,107 @@
 html {
-    box-sizing: border-box;
-  }
-  .main-nav {
-    display: flex;
-    width: 375px;
-    height: 92px;
-   justify-content: space-between;
-    background: #3c3a39;
-    padding: 10px 24px;
-  }
-  .main-nav .logo {
-    width: 60%;
-    margin-top: 10px;
-    margin-left: 5px;
-  }
-  
-  .main-nav .logo p {
-    color: #fff;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-  }
-  .main-nav .logo a{
-      text-decoration: none;
-  }
-  .main-nav .logo a :hover{
-       color: #ff6b00;;
-       font-size: 20px;
-  }
+  box-sizing: border-box;
+}
 
-  .main-nav .menu {
-    width: 26px;
-    height: 24px;
-    margin-left: 8px;
-    margin-top: 24px;
-  }
-  .main-nav .menu:hover {
-     width: 28px;
-     height: 28px;
-  }
-  .head-line {
-    background: url(./images//back.svg);
-    background-repeat: repeat-x;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    width: 375px;
-    left: 0;
-    top: 92px;
-   
-  }
-  .head-line {
-    background: #1C1A19;
- 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    width: 375px;
-    left: 0;
-    top: 92px;
-   
-  }
-  .head-line header h1#your-name {
-    font-family: sans-serif;
-    font-size: 56px;
-    color: #ff6b00;
-    line-height: 64px;
-    font-weight: 600;
-  }
-  .head-line #profession {
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff5e1;
-  }
-  
-  .head-line #request {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    margin: 10px 0;
-  }
-  .head-line ul.social {
-    display: flex;
-    list-style: none;
-  }
-  
-  .social li {
-    margin: 5px 10px;
-  
-  }
-  
-  .social li a:hover{
-      background: #ff6b00;
-      padding: 3px;
+.main-nav {
+  display: flex;
+  width: 375px;
+  height: 92px;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 10px 24px;
+}
 
+.main-nav .logo {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
 
-  }
-  .social li img.vector {
-    left: 63.62%;
-    right: -9.24%;
-    top: 50%;
-    bottom: -13.36%;
-  }
+.main-nav .logo p {
+  color: #fff;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.main-nav .logo a {
+  text-decoration: none;
+}
+
+.main-nav .logo a :hover {
+  color: #ff6b00;
+  font-size: 20px;
+}
+
+.main-nav .menu {
+  width: 26px;
+  height: 24px;
+  margin-left: 8px;
+  margin-top: 24px;
+}
+
+.main-nav .menu:hover {
+  width: 28px;
+  height: 28px;
+}
+
+.head-line {
+  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  width: 375px;
+  left: 0;
+  top: 92px;
+}
+
+.head-line header h1#your-name {
+  font-family: sans-serif;
+  font-size: 56px;
+  color: #ff6b00;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.head-line #profession {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.head-line #request {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.head-line ul.social {
+  display: flex;
+  list-style: none;
+}
+
+.social li {
+  margin: 5px 10px;
+}
+
+.social li a:hover {
+  background: #ff6b00;
+  padding: 3px;
+}
+
+.social li img.vector {
+  left: 63.62%;
+  right: -9.24%;
+  top: 50%;
+  bottom: -13.36%;
+}
