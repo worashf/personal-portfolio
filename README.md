@@ -17,7 +17,7 @@
 ## Getting Started
 
 **This is personal portfolio wwebsite mobile version project.**
-**Built index.html and style.css file .**
+**Built  for telling my experiance, skills and my completed project when finished**
 
 
 
