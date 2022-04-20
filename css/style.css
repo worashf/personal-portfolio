@@ -1,3 +1,11 @@
 html {
     box-sizing: border-box;
   }
+  .main-nav {
+    display: flex;
+    width: 375px;
+    height: 92px;
+   justify-content: space-between;
+    background: #3c3a39;
+    padding: 10px 24px;
+  }
