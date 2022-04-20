@@ -49,3 +49,20 @@ html {
     line-height: 64px;
     font-weight: 600;
   }
+  .head-line #profession {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+  }
+  
+  .head-line #request {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: 10px 0;
+  }
