@@ -24,7 +24,12 @@ html {
     line-height: 24px;
     text-align: center;
   }
-
+  .main-nav .logo a{
+      text-decoration: none;
+  }
+  .main-nav .logo a :hover{
+       color: #ff6b00;;
+  }
 
   .main-nav .menu {
     width: 26px;
@@ -32,6 +37,7 @@ html {
     margin-left: 8px;
     margin-top: 12px;
   }
+
   .head-line {
     background: url(./images//back.svg);
     background-repeat: repeat-x;
