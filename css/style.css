@@ -24,6 +24,8 @@ html {
     line-height: 24px;
     text-align: center;
   }
+
+
   .main-nav .menu {
     width: 26px;
     height: 24px;
@@ -88,9 +90,15 @@ html {
   
   }
   
+  .social li a:hover{
+      background: #ff6b00;
+      padding: 10px;
+
+
+  }
   .social li img.vector {
     left: 63.62%;
     right: -9.24%;
-    top: 30%;
+    top: 50%;
     bottom: -13.36%;
   }
