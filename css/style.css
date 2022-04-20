@@ -9,3 +9,25 @@ html {
     background: #3c3a39;
     padding: 10px 24px;
   }
+  .main-nav .logo {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .main-nav .logo p {
+    color: #fff;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .main-nav .menu {
+    width: 26px;
+    height: 24px;
+    margin-left: 8px;
+    margin-top: 12px;
+  }
+  
