@@ -42,3 +42,10 @@ html {
     top: 92px;
    
   }
+  .head-line header h1#your-name {
+    font-family: sans-serif;
+    font-size: 56px;
+    color: #ff6b00;
+    line-height: 64px;
+    font-weight: 600;
+  }
