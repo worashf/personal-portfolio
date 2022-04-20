@@ -30,4 +30,15 @@ html {
     margin-left: 8px;
     margin-top: 12px;
   }
-  
+  .head-line {
+    background: url(./images//back.svg);
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    width: 375px;
+    left: 0;
+    top: 92px;
+   
+  }
