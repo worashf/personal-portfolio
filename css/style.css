@@ -42,44 +42,15 @@ html {
     top: 92px;
    
   }
-  .head-line header h1#your-name {
-    font-family: sans-serif;
-    font-size: 56px;
-    color: #ff6b00;
-    line-height: 64px;
-    font-weight: 600;
-  }
-  .head-line #profession {
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff5e1;
-  }
-  
-  .head-line #request {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    margin: 10px 0;
-  }
-  .head-line ul.social {
+  .head-line {
+    background: #1C1A19;
+ 
     display: flex;
-    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    width: 375px;
+    left: 0;
+    top: 92px;
+   
   }
-  
-  .social li {
-    margin: 5px 10px;
-  
-  }
-  
-  .social li img.vector {
-    left: 63.62%;
-    right: -9.24%;
-    top: 30%;
-    bottom: -13.36%;
-  }
-  
