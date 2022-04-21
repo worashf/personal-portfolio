@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300;400;700&display=swap');
+
 html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-a { 
+
+a {
   text-decoration: none;
 }
-ul{
+
+ul {
   list-style: none;
 }
-@media screen and (max-width:423px){
-  
+
+@media screen and (max-width: 423px) {
   .main-nav {
     display: flex;
     justify-content: space-between;
@@ -19,31 +22,29 @@ ul{
     background: #3c3a39;
     width: 375px;
     height: 92px;
-    left: 0px;
-    top: 0px;
-    padding: 0px 24px;
+    left: 0;
+    top: 0;
+    padding: 0 24px;
     position: absolute;
   }
-  .main-nav .logo{
-  
-    top:2px;
+
+  .main-nav .logo {
+    top: 2px;
     left: 12px;
     padding: 10px 12px;
   }
+
   .main-nav .logo p {
-    color: #FFFFFF;
-    font-family: 'Roboto';
+    color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-   
     left: 12px;
     top: 10px;
-   
   }
- 
 
   .main-nav nav .menu {
     width: 24px;
@@ -51,108 +52,92 @@ ul{
     left: 8px;
     top: 8px;
   }
+
   .main-nav .menu:hover {
     width: 26px;
     height: 26px;
   }
-  #head-line-backgroud{
-    background-image:  url(../images/illustration-header-mobile.svg);
+
+  #head-line-backgroud {
+    background-image: url(../images/illustration-header-mobile.svg);
     background-repeat: no-repeat;
-    background-attachment:scroll;
+    background-attachment: scroll;
     background-position: 100% 100%;
- 
   }
-  .head-line{
-   
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 120px 24px;
-   width: 375px;
-   height: 590px;
-   left: 0;
-   top: 92px;
-   background: #1C1A19;
-   position: absolute;
+
+  .head-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    width: 375px;
+    height: 590px;
+    left: 0;
+    top: 92px;
+    background: #1c1a19;
+    position: absolute;
   }
- .head-line .name-description h1{
 
-width: 327px;
-height: 124px;
-left: 24px;
-top: 120px;
-margin-bottom: 0;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-letter-spacing: 0.37px;
-color: #ff6b00;
- }
-.head-line .profession {
+  .head-line .name-description h1 {
+    width: 327px;
+    height: 124px;
+    left: 24px;
+    top: 120px;
+    margin-bottom: 0;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
 
-  width: 327px;
-  height: 27px;
-  left: 24px;
-  margin-bottom: 0;
-  margin-top: 0;
-  top: 256px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFF5E1;
+  .head-line .profession {
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    top: 256px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+  }
+
+  .head-line .description {
+    width: 327px;
+    height: 123px;
+    left: 24px;
+    top: 295px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .head-line ul.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 200px;
+    height: 40px;
+    left: 24px;
+    top: 430px;
+  }
+
+  .social li {
+    width: 24px;
+    height: 24px;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+  }
 }
-.head-line .description {
-width: 327px;
-height: 123px;
-left: 24px;
-top: 295px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-
-}
-.head-line ul.social {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0px;
-width: 200px;
-height: 40px;
-left: 24px;
-top: 430px;
-}
-
-.social li {
- width: 24px;
-height: 24px;
-left: 20%;
-right: 20%;
-top: 20%;
-bottom: 20%;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
