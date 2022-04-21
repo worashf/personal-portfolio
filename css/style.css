@@ -13,12 +13,14 @@ a {
   .main-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #3c3a39;
-    position: absolute;
     width: 375px;
     height: 92px;
     left: 0px;
     top: 0px;
+    padding: 0px 24px;
+    position: absolute;
   }
   .main-nav .logo{
   
@@ -34,16 +36,41 @@ a {
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-    /* padding: 0px 24px; */
+   
     left: 12px;
     top: 10px;
    
   }
  
 
-
-
-
+  .main-nav nav .menu {
+    width: 24px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+  }
+  .main-nav .menu:hover {
+    width: 26px;
+    height: 26px;
+  }
+  #head-line-backgroud{
+    background-image:  url(../images/illustration-header-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  .head-line{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 120px 24px;
+   width: 375px;
+   height: 590px;
+   left: 0;
+   top: 92px;
+   background: #1C1A19;
+   position: absolute;
+  }
 
 
 
@@ -56,32 +83,15 @@ a {
 
 
 
-.main-nav .logo a :hover {
-  color: #ff6b00;
-  font-size: 20px;
-}
 
-.main-nav .menu {
-  width: 26px;
-  height: 24px;
-  margin-left: 8px;
-  margin-top: 24px;
-}
 
-.main-nav .menu:hover {
-  width: 28px;
-  height: 28px;
-}
+
+
+
 
 .head-line {
-  background: #1c1a19;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 24px;
-  width: 375px;
-  left: 0;
-  top: 92px;
+
+  
 }
 
 .head-line header h1#your-name {
