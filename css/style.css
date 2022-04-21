@@ -20,6 +20,12 @@ a {
     left: 0px;
     top: 0px;
   }
+  .main-nav .logo{
+  
+    top:2px;
+    left: 12px;
+    padding: 10px 12px;
+  }
   .main-nav .logo p {
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -27,6 +33,10 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
+    /* padding: 0px 24px; */
+    left: 12px;
+    top: 10px;
    
   }
  
