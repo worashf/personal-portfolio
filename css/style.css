@@ -44,7 +44,6 @@ ul {
     text-align: center;
     left: 12px;
     top: 10px;
-
   }
 
   .main-nav nav .menu {
@@ -86,7 +85,7 @@ ul {
     top: 120px;
     margin-bottom: 0;
     margin-left: 24px;
-    margin-right: 24px;   
+    margin-right: 24px;
     font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -103,7 +102,7 @@ ul {
     margin-bottom: 0;
     margin-top: 0;
     margin-left: 24px;
-    margin-right: 24px;   
+    margin-right: 24px;
     top: 256px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -119,7 +118,7 @@ ul {
     left: 24px;
     top: 295px;
     margin-left: 24px;
-    margin-right: 24px;   
+    margin-right: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -133,8 +132,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-     margin-left: 24px;
-    margin-right: 24px;  
+    margin-left: 24px;
+    margin-right: 24px;
     width: 200px;
     height: 40px;
     left: 24px;
