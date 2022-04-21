@@ -71,44 +71,48 @@ a {
    background: #1C1A19;
    position: absolute;
   }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.head-line {
-
-  
-}
-
-.head-line header h1#your-name {
-  font-family: sans-serif;
-  font-size: 56px;
-  color: #ff6b00;
-  line-height: 64px;
-  font-weight: 600;
-}
-
-.head-line #profession {
-  font-family: sans-serif;
+ .head-line .name-description h1{
+position: static;
+width: 327px;
+height: 124px;
+left: 24px;
+top: 120px;
+margin-bottom: 0;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: 0.37px;
+color: #ff6b00;
+ }
+.head-line .profession {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 256px;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #fff5e1;
+  color: #FFF5E1;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .head-line #request {
   font-family: sans-serif;
