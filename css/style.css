@@ -1,35 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300;400;700&display=swap');
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.main-nav {
-  display: flex;
-  width: 375px;
-  height: 92px;
-  justify-content: space-between;
-  background: #3c3a39;
-  padding: 10px 24px;
-}
-
-.main-nav .logo {
-  width: 60%;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-.main-nav .logo p {
-  color: #fff;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.main-nav .logo a {
+a { 
   text-decoration: none;
 }
+
+@media screen and (max-width:1000px){
+  
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    background: #3c3a39;
+    position: absolute;
+    width: 375px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+  }
+  .main-nav .logo p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+   
+  }
+ 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 
 .main-nav .logo a :hover {
   color: #ff6b00;
