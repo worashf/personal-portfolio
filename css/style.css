@@ -7,7 +7,9 @@ html {
 a { 
   text-decoration: none;
 }
-
+ul{
+  list-style: none;
+}
 @media screen and (max-width:1000px){
   
   .main-nav {
@@ -56,7 +58,9 @@ a {
   #head-line-backgroud{
     background-image:  url(../images/illustration-header-mobile.svg);
     background-repeat: no-repeat;
+    background-attachment:scroll;
     background-position: 100% 100%;
+ 
   }
   .head-line{
    
@@ -72,7 +76,7 @@ a {
    position: absolute;
   }
  .head-line .name-description h1{
-position: static;
+
 width: 327px;
 height: 124px;
 left: 24px;
@@ -87,7 +91,7 @@ letter-spacing: 0.37px;
 color: #ff6b00;
  }
 .head-line .profession {
-  position: static;
+
   width: 327px;
   height: 27px;
   left: 24px;
@@ -101,46 +105,54 @@ color: #ff6b00;
   line-height: 32px;
   color: #FFF5E1;
 }
+.head-line .description {
+width: 327px;
+height: 123px;
+left: 24px;
+top: 295px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-.head-line #request {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 10px 0;
-}
-
 .head-line ul.social {
-  display: flex;
-  list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px;
+width: 200px;
+height: 40px;
+left: 24px;
+top: 430px;
 }
 
 .social li {
-  margin: 5px 10px;
+ width: 24px;
+height: 24px;
+left: 20%;
+right: 20%;
+top: 20%;
+bottom: 20%;
 }
 
-.social li a:hover {
-  background: #ff6b00;
-  padding: 3px;
 }
 
-.social li img.vector {
-  left: 63.62%;
-  right: -9.24%;
-  top: 50%;
-  bottom: -13.36%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
