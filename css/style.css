@@ -139,26 +139,30 @@ ul {
     right: 20%;
     top: 20%;
     bottom: 20%;
-    
   }
- .social #github{
- background-image: url("../images/social/github.svg");
- background-repeat: no-repeat;
+
+  .social #github {
+    background-image: url("../images/social/github.svg");
+    background-repeat: no-repeat;
   }
-  .social #linkedin{
+
+  .social #linkedin {
     background-image: url("../images/social/linkedin.svg");
     background-repeat: no-repeat;
-     }
-     .social #anglelist{
-      background-image: url("../images/social/inglist.svg");
-      background-repeat: no-repeat;
-       }
-       .social #twitter{
-        background-image: url("../images/social/twitter.svg");
-        background-repeat: no-repeat;
-         }
-         .social #medium{
-          background-image: url("../images/social/midium.svg");
-          background-repeat: no-repeat;
-           }
+  }
+
+  .social #anglelist {
+    background-image: url("../images/social/inglist.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #twitter {
+    background-image: url("../images/social/twitter.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #medium {
+    background-image: url("../images/social/midium.svg");
+    background-repeat: no-repeat;
+  }
 }
