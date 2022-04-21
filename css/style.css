@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 423px) {
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3c3a39;
+    width: 375px;
+    height: 92px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  .main-nav .logo {
+    left: 12px;
+    top: 10px;
+    padding: 10px 10px;
+    margin-left: 8px;
+  }
+
+  .main-nav .logo p {
+    color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    left: 12px;
+    top: 10px;
+  }
+
+  .main-nav nav .menu {
+    width: 20px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+    margin-right: 10px;
+  }
+
+  .main-nav .menu:hover {
+    width: 26px;
+    height: 26px;
+  }
+
+  #head-line-backgroud {
+    background-image: url(../images/illustration-header-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 100% 100%;
+  }
+
+  .head-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 375px;
+    height: 590px;
+    left: 0;
+    top: 92px;
+    background: #1c1a19;
+    position: absolute;
+  }
+
+  .head-line .name-description h1 {
+    width: 327px;
+    height: 124px;
+    left: 24px;
+    top: 120px;
+    margin-bottom: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
+
+  .head-line .profession {
+    width: 327px;
+    height: 27px;
+    left: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+    top: 256px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+  }
+
+  .head-line .description {
+    width: 327px;
+    height: 123px;
+    left: 24px;
+    top: 295px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .head-line ul.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 200px;
+    height: 40px;
+    left: 24px;
+    top: 430px;
+  }
+
+  .social li {
+    width: 24px;
+    height: 24px;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+  }
+
+  .social #github {
+    background-image: url("../images/social/github.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #linkedin {
+    background-image: url("../images/social/linkedin.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #anglelist {
+    background-image: url("../images/social/inglist.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #twitter {
+    background-image: url("../images/social/twitter.svg");
+    background-repeat: no-repeat;
+  }
+
+  .social #medium {
+    background-image: url("../images/social/midium.svg");
+    background-repeat: no-repeat;
+  }
+}
