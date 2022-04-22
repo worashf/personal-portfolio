@@ -24,7 +24,7 @@ ul {
     height: 92px;
     left: 0;
     top: 0;
-    position: absolute;
+    /* position: absolute; */
   }
 
   .main-nav .logo {
@@ -75,7 +75,7 @@ ul {
     left: 0;
     top: 92px;
     background: #1c1a19;
-    position: absolute;
+    /* position: absolute; */
   }
 
   .head-line .name-description h1 {
@@ -173,4 +173,188 @@ ul {
     background-image: url("../images/social/midium.svg");
     background-repeat: no-repeat;
   }
+
+
+  /* recent work  */
+
+  .recent-work-container {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+  }
+
+  .recent-work-title {
+    width: 327px;
+    height: 83px;
+    left: 0px;
+    top: 120px;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .hr {
+    width: 327px;
+    margin-top: 0;
+    border: 1px solid #212121;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+
+  .post-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-img {
+    width: 327px;
+    height: 237px;
+    margin-top: 80px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+  }
+
+  .multi-post-title {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    height: 36px;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .post-content p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+  }
+ /* post link */
+  .post-tools {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+ margin-bottom: 12px;
+    
+   
+  }
+.post-tools li{
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+  width: 56px;
+  border: 1px solid #8993A4;
+  margin-left: 0;
+  color: #091E42;
+  
+}
+/* post link end */
+ .post-button{
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: 259px;
+ background: #FF6B00;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+color: #fff;
+margin-bottom: 24px;
+margin-left: 24px;
+
+  
+ }
+ .story-container{
+   display: flex;
+   flex-direction: column;
+   background:
+   linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/story-img.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 40px;
+   padding: 84px 0 0 0;
+   margin-left: 24px;
+   margin-right: 24px;
+  
+ }
+
+ .story-container h3{
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 0;
+ }
+ .story-container p{
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 12px 16px;
+  width: 295px;
+  height: 87px;
+
+ }
+ .story-container ul{
+   display: flex;
+   align-items: center;
+  justify-content: space-between;
+ }
+ .story-container ul li{
+  width: 56px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  
+  background: rgba(255, 255, 255, 0.24);
+ }
+ .story-container ul li#tools-html-img{
+   background-image: url(../images/tools/html.svg);
+   background-repeat: no-repeat;
+ }
+ .story-container ul li#tools-bootstrap-img{
+  background-image: url(../images/tools/bootstrap.svg);
+  background-repeat: no-repeat;
+}
+.story-container ul li#tools-ruby-img{
+  background-image: url(../images/tools/ruby.svg);
+  background-repeat: no-repeat;
+}
 }
