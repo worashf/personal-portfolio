@@ -234,7 +234,7 @@ ul {
     margin-bottom: 12px;
   }
 
-  .post-content p {
+  .post-content {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -246,7 +246,6 @@ ul {
     margin-bottom: 12px;
   }
 
-  /* post link */
   .post-tools {
     display: flex;
     justify-content: space-between;
@@ -270,14 +269,13 @@ ul {
     color: #091e42;
   }
 
-  /* post link end */
   .post-button {
     width: 124px;
     height: 48px;
     left: 0;
     top: 259px;
     background: #ff6b00;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -313,7 +311,7 @@ ul {
     margin-bottom: 0;
   }
 
-  .story-container p {
+  .story-content {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -360,9 +358,6 @@ ul {
     letter-spacing: 0.03em;
   }
 
-  /* work section  end */
-
-  /* about me  and frame works */
   .about-container {
     display: flex;
     flex-direction: column;
@@ -381,7 +376,7 @@ ul {
   }
 
   .about-me h3 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -394,7 +389,7 @@ ul {
     margin-bottom: 0;
   }
 
-  .about-me p {
+  .about-content {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -619,7 +614,7 @@ ul {
     height: 48px;
     left: 98px;
     background: #ff6b00;
-    font-family: 'Inter';
+    font-family: "Inter", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
