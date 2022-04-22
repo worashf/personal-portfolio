@@ -434,6 +434,153 @@ margin-bottom: 0;
 border: 1px solid #FFFFFF;
 margin-top: 209px;
 margin-left: 24px;
+margin-bottom: 0;
+}
+.languages{
+  color:#FFFFFF;
+  margin-left: 86px;
+  margin-top: 50px;
+  margin-bottom: 0;
+
+}
+.languages h4 .icon{
+display: inline-block;
+position: relative;
+margin-left: 12px;
+margin-right: 12px;
+
+}
+.languages h4 span::before{
+   content: '';
+  display: block;
+width: 18px;
+height: 18px;
+background: #FF6B00;
+transform: rotate(-45deg);
+
+
+}
+.languages h4  {
+font-family: 'InaiMathi' ,Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.languages ul{
+  margin-right: 130px;
+  margin-left: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.languages ul li {
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  
+  color: #FFFFFF;
+
 }
 
+
+.frameworks{
+  color:#FFFFFF;
+  margin-left: 86px;
+  margin-top: 0;
+
+}
+.frameworks h4 .icon{
+display: inline-block;
+position: relative;
+margin-left: 12px;
+margin-right: 12px;
+
+}
+.frameworks h4 span::before{
+   content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+
+
+}
+.frameworks h4  {
+font-family: 'InaiMathi' ,Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.frameworks ul{
+  margin-right: 130px;
+  margin-left: 0;
+  padding-top: 0;
+}
+.frameworks ul li {
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  margin-top: 0;
+  text-align: center;
+  
+  color: #FFFFFF;
+
+}
+
+.skills{
+  color:#FFFFFF;
+  margin-left: 115px;
+  margin-top: 0;
+
+}
+.skills  h4 .icon{
+display: inline-block;
+position: relative;
+margin-left: 12px;
+margin-right: 12px;
+
+}
+.skills h4 span::before{
+   content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 11px;
+  background: #FF6B00;
+  border-radius: 150px;
+
+
+}
+.skills h4  {
+font-family: 'InaiMathi' ,Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.skills ul{
+margin-right: 130px;
+  margin-left: 0;
+  padding-top: 0;
+}
+.skills ul li {
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
 }
