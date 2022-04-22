@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700;700&display=swap');
 
 html {
   box-sizing: border-box;
@@ -24,6 +24,7 @@ ul {
     height: 92px;
     left: 0;
     top: 0;
+
     /* position: absolute; */
   }
 
@@ -75,6 +76,7 @@ ul {
     left: 0;
     top: 92px;
     background: #1c1a19;
+
     /* position: absolute; */
   }
 
@@ -174,22 +176,18 @@ ul {
     background-repeat: no-repeat;
   }
 
-
-  /* recent work  */
-
   .recent-work-container {
     display: grid;
     grid-template-columns: auto;
     margin-top: 120px;
     padding-left: 24px;
     padding-right: 24px;
-
   }
 
   .recent-work-title {
     width: 327px;
     height: 83px;
-    left: 0px;
+    left: 0;
     top: 120px;
     font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -209,7 +207,6 @@ ul {
     margin-right: 24px;
   }
 
-
   .post-container {
     display: flex;
     flex-direction: column;
@@ -221,7 +218,6 @@ ul {
     margin-top: 80px;
     margin-left: 24px;
     margin-right: 24px;
-
   }
 
   .multi-post-title {
@@ -244,7 +240,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091E42;
+    color: #091e42;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 12px;
@@ -259,8 +255,6 @@ ul {
     padding-left: 24px;
     padding-right: 24px;
     margin-bottom: 12px;
-
-
   }
 
   .post-tools li {
@@ -271,19 +265,18 @@ ul {
     line-height: 20px;
     padding: 10px;
     width: 56px;
-    border: 1px solid #8993A4;
+    border: 1px solid #8993a4;
     margin-left: 0;
-    color: #091E42;
-
+    color: #091e42;
   }
 
   /* post link end */
   .post-button {
     width: 124px;
     height: 48px;
-    left: 0px;
+    left: 0;
     top: 259px;
-    background: #FF6B00;
+    background: #ff6b00;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -292,22 +285,17 @@ ul {
     color: #fff;
     margin-bottom: 24px;
     margin-left: 24px;
-
-
   }
 
   .story-container {
     display: flex;
     flex-direction: column;
-    background:
-      linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/story-img.svg);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/story-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 84px 0 0 0;
     margin-left: 24px;
     margin-right: 24px;
-
-
   }
 
   .story-container h3 {
@@ -318,7 +306,7 @@ ul {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 8px;
     margin-left: 16px;
     margin-right: 16px;
@@ -331,12 +319,11 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 12px 16px;
     width: 295px;
     height: 87px;
     margin-bottom: 0;
-
   }
 
   .story-container ul {
@@ -344,8 +331,6 @@ ul {
     margin-left: 0;
     padding-left: 16px;
     padding-right: 16px;
-
-
   }
 
   .story-container ul li {
@@ -357,30 +342,31 @@ ul {
     line-height: 20px;
     background: rgba(255, 255, 255, 0.24);
     padding: 10px;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .story-container .story-btn {
     padding: 0;
     height: 48px;
-    background: #FF6B00;
+    background: #ff6b00;
     border: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
     letter-spacing: 0.03em;
   }
 
   /* work section  end */
+
   /* about me  and frame works */
   .about-container {
     display: flex;
     flex-direction: column;
-    background: #1C1A19;
+    background: #1c1a19;
     width: 375px;
     margin-left: 24px;
     margin-right: 24px;
@@ -401,13 +387,11 @@ ul {
     font-size: 72px;
     line-height: 88px;
     letter-spacing: 0.37px;
-    color: #FF6B00;
+    color: #ff6b00;
     margin-top: 120px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 0;
-
-
   }
 
   .about-me p {
@@ -416,7 +400,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F5F7;
+    color: #f4f5f7;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 24px;
@@ -426,36 +410,33 @@ ul {
   .about-me .resume {
     width: 161px;
     height: 48px;
-    background: #FF6B00;
+    background: #ff6b00;
     border: 0;
     margin-left: 24px;
-
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
     margin-top: 12px;
     margin-bottom: 0;
-
   }
 
   .about-me .hr {
     width: 327px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fff;
     margin-top: 209px;
     margin-left: 24px;
     margin-bottom: 0;
   }
 
   .languages {
-    color: #FFFFFF;
+    color: #fff;
     margin-left: 86px;
     margin-top: 50px;
     margin-bottom: 0;
-
   }
 
   .languages h4 .icon {
@@ -463,7 +444,6 @@ ul {
     position: relative;
     margin-left: 12px;
     margin-right: 12px;
-
   }
 
   .languages h4 span::before {
@@ -471,10 +451,8 @@ ul {
     display: block;
     width: 18px;
     height: 18px;
-    background: #FF6B00;
+    background: #ff6b00;
     transform: rotate(-45deg);
-
-
   }
 
   .languages h4 {
@@ -483,7 +461,7 @@ ul {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .languages ul {
@@ -500,17 +478,13 @@ ul {
     font-size: 22px;
     line-height: 43px;
     text-align: center;
-
-    color: #FFFFFF;
-
+    color: #fff;
   }
 
-
   .frameworks {
-    color: #FFFFFF;
+    color: #fff;
     margin-left: 86px;
     margin-top: 0;
-
   }
 
   .frameworks h4 .icon {
@@ -518,7 +492,6 @@ ul {
     position: relative;
     margin-left: 12px;
     margin-right: 12px;
-
   }
 
   .frameworks h4 span::before {
@@ -526,9 +499,7 @@ ul {
     display: block;
     width: 18px;
     height: 18px;
-    background: #FF6B00;
-
-
+    background: #ff6b00;
   }
 
   .frameworks h4 {
@@ -537,7 +508,7 @@ ul {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .frameworks ul {
@@ -554,16 +525,13 @@ ul {
     line-height: 43px;
     margin-top: 0;
     text-align: center;
-
-    color: #FFFFFF;
-
+    color: #fff;
   }
 
   .skills {
-    color: #FFFFFF;
+    color: #fff;
     margin-left: 115px;
     margin-top: 0;
-
   }
 
   .skills h4 .icon {
@@ -571,7 +539,6 @@ ul {
     position: relative;
     margin-left: 12px;
     margin-right: 12px;
-
   }
 
   .skills h4 span::before {
@@ -581,10 +548,8 @@ ul {
     height: 18px;
     left: 12px;
     top: 11px;
-    background: #FF6B00;
+    background: #ff6b00;
     border-radius: 150px;
-
-
   }
 
   .skills h4 {
@@ -593,7 +558,7 @@ ul {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .skills ul {
@@ -609,8 +574,7 @@ ul {
     font-size: 22px;
     line-height: 43px;
     text-align: center;
-    color: #FFFFFF;
-
+    color: #fff;
   }
 
   .contact {
@@ -626,7 +590,7 @@ ul {
     font-size: 32px;
     line-height: 44px;
     text-align: center;
-    color: #172B4D;
+    color: #172b4d;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 120px;
@@ -639,14 +603,14 @@ ul {
 
   .contact-form .input {
     border: 0;
-    border-bottom: 1px solid #DBD8D7;
+    border-bottom: 1px solid #dbd8d7;
     padding: 10px;
     margin-top: 24px;
   }
 
   .contact-form textarea {
     border: 0;
-    background: #FBF8F7;
+    background: #fbf8f7;
     margin-top: 24px;
   }
 
@@ -654,14 +618,13 @@ ul {
     width: 131px;
     height: 48px;
     left: 98px;
-
-    background: #FF6B00;
+    background: #ff6b00;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     border: 0;
     margin-left: 50px;
     margin-top: 24px;
@@ -669,8 +632,7 @@ ul {
 
   .contact .hr {
     margin-top: 124px;
-    border: 1px solid #DFE1E6;
-    
+    border: 1px solid #dfe1e6;
   }
 
   .contact ul.social {
@@ -694,38 +656,35 @@ ul {
     bottom: 20%;
   }
 
-  .contact.social #github {
+  .contact.social #github-icon {
     background-image: url("../images/icons/github-icon.svg");
     background-repeat: no-repeat;
- 
   }
 
- .contact .social #linkedin {
+  .contact .social #linkedin-icon {
     background-image: url("../images/icons/linkedin-icon.svg");
     background-repeat: no-repeat;
   }
 
- .contact .social #anglelist {
+  .contact .social #anglelist-icon {
     background-image: url("../images/icons/Icon\ -\ Angelist.svg");
     background-repeat: no-repeat;
   }
 
- .contact .social #twitter {
+  .contact .social #twitter-icon {
     background-image: url("../images/icons/twitter-icon.svg");
     background-repeat: no-repeat;
   }
 
- .contact .social #medium {
+  .contact .social #medium-icon {
     background-image: url("../images/icons/medium-icon.svg");
     background-repeat: no-repeat;
   }
 
-  .contact .social-hr{
+  .contact .social-hr {
     border-radius: 10px;
-    border: 5px solid #0D151E;
-    margin-left: 120px;
+    border: 5px solid #0d151e;
+    margin-left: 150px;
     margin-right: 120px;
-    
-
   }
 }
