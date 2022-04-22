@@ -299,10 +299,10 @@ margin-left: 24px;
    linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/story-img.svg);
    background-repeat: no-repeat;
    background-size: cover;
-   margin-bottom: 40px;
    padding: 84px 0 0 0;
    margin-left: 24px;
    margin-right: 24px;
+   
   
  }
 
@@ -330,31 +330,43 @@ margin-left: 24px;
   margin: 12px 16px;
   width: 295px;
   height: 87px;
+  margin-bottom: 0;
 
  }
  .story-container ul{
-   display: flex;
-   align-items: center;
-  justify-content: space-between;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+
+ 
  }
  .story-container ul li{
-  width: 56px;
-  height: 40px;
-  left: 0px;
-  top: 0px;
-  
-  background: rgba(255, 255, 255, 0.24);
+  display: inline-block;
+font-family: 'Inter',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+background: rgba(255, 255, 255, 0.24);
+padding: 10px;
+color: #FFFFFF;
  }
- .story-container ul li#tools-html-img{
-   background-image: url(../images/tools/html.svg);
-   background-repeat: no-repeat;
+ .story-container .story-btn{
+padding: 0;
+height: 48px;
+background: #FF6B00;
+border: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
  }
- .story-container ul li#tools-bootstrap-img{
-  background-image: url(../images/tools/bootstrap.svg);
-  background-repeat: no-repeat;
-}
-.story-container ul li#tools-ruby-img{
-  background-image: url(../images/tools/ruby.svg);
-  background-repeat: no-repeat;
-}
 }
