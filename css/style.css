@@ -365,8 +365,75 @@ line-height: 24px;
 color: #FFFFFF;
 text-align: center;
 letter-spacing: 0.03em;
-
-
-
  }
+ /* work section  end */
+ /* about me  and frame works */
+.about-container{
+ display: flex;
+flex-direction: column;
+background: #1C1A19;
+width: 375px;
+margin-left: 24px;
+margin-right: 24px;
+margin-top: 120px;
+}
+.about-me{
+  background-image: url(../images/about-back.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 100% 100%;
+}
+.about-me h3{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 0;
+
+
+}
+.about-me p{
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #F4F5F7;
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 24px;
+margin-top: 24px;
+}
+
+.about-me .resume{
+width: 161px;
+height: 48px;
+background: #FF6B00;
+border: 0;
+margin-left: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 12px;
+margin-bottom: 0;
+
+}
+.about-me .hr{
+ width: 327px;
+border: 1px solid #FFFFFF;
+margin-top: 209px;
+margin-left: 24px;
+}
+
 }
