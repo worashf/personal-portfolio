@@ -574,7 +574,7 @@ ul {
 
   .contact {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     margin-left: 24px;
   }
 
@@ -608,8 +608,8 @@ ul {
     background: #fbf8f7;
     margin-top: 24px;
   }
- 
- 
+
+
   .contact-form .btn {
     width: 131px;
     height: 48px;
@@ -625,12 +625,12 @@ ul {
     margin-left: 50px;
     margin-top: 24px;
   }
-  
-.contact-form .btn:hover{
-  background: #fff;
-  border: 1px solid  #ff6b00;;
-  color: #ff6b00;
-}
+
+  .contact-form .btn:hover {
+    background: #fff;
+    border: 1px solid  #ff6b00;
+    color: #ff6b00;
+  }
 
   .contact .hr {
     margin-top: 124px;
