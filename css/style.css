@@ -613,9 +613,10 @@ ul {
     background: #fbf8f7;
     margin-top: 24px;
     width: 100%;
+    height: 114px;
   }
 
-  .contact-form .btn {
+  .contact-form .submit-btn {
     width: 131px;
     height: 48px;
     left: 98px;
@@ -627,15 +628,15 @@ ul {
     line-height: 24px;
     color: #fff;
     border: 0;
-    margin-left: 122px;
-    margin-right: 122px;
+    margin-left: 100px;
     margin-top: 24px;
   }
 
-  .contact-form .btn:hover {
-    background: #fff;
+  .submit-btn:hover{
+    background-color: #ffffff;
     border: 1px solid  #ff6b00;
     color: #ff6b00;
+    cursor: pointer;
   }
 
   .contact .hr {
@@ -655,16 +656,19 @@ ul {
     top: 430px;
   }
 
-  .contact.social li {
+  .contact .social li  {
     width: 24px;
     height: 24px;
     left: 20%;
     right: 20%;
     top: 20%;
     bottom: 20%;
+  
   }
-
-  .contact.social #github-icon {
+.contact .social i{
+  color: #505F79;
+}
+  .contact .social #github-icon {
     background-image: url("../images/icons/github-icon.svg");
     background-repeat: no-repeat;
   }
@@ -690,10 +694,10 @@ ul {
   }
 
   .contact .social-hr {
-    width: 134px;
     border-radius: 10px;
-    border: 5px solid #0d151e;
-    margin-left:  calc(50% - 134px/2 - 0.5px);
-    /* margin-right: 120px; */
+    border: 3px solid #0d151e;
+    margin-left:  100px;
+    margin-right:  100px;
+    
   }
 }
