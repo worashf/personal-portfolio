@@ -628,6 +628,11 @@ ul {
     margin-top: 24px;
   }
   
+.contact-form .btn:hover{
+  background: #fff;
+  border: 1px solid  #ff6b00;;
+  color: #ff6b00;
+}
 
   .contact .hr {
     margin-top: 124px;
