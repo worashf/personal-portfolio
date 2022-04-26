@@ -609,9 +609,7 @@ ul {
     margin-top: 24px;
   }
  
-  .contact-form input[type="email"]:invalid{
-    border:  2px dashed red;
-  }
+ 
   .contact-form .btn {
     width: 131px;
     height: 48px;
