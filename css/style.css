@@ -573,8 +573,8 @@ ul {
   }
 
   .contact {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+   flex-direction: column;
     margin-left: 24px;
   }
 
