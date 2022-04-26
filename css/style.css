@@ -76,12 +76,9 @@ ul {
     left: 0;
     top: 92px;
     background: #1c1a19;
-
-   
   }
 
   .head-line .name-description h1 {
-    
     height: 124px;
     left: 24px;
     top: 120px;
@@ -98,7 +95,6 @@ ul {
   }
 
   .head-line .profession {
-    
     height: 27px;
     left: 24px;
     margin-bottom: 0;
@@ -115,7 +111,6 @@ ul {
   }
 
   .head-line .description {
-
     height: 123px;
     left: 24px;
     top: 295px;
@@ -185,7 +180,6 @@ ul {
   }
 
   .recent-work-title {
-  
     height: 83px;
     left: 0;
     top: 120px;
@@ -200,7 +194,6 @@ ul {
   }
 
   .hr {
-   
     margin-top: 0;
     border: 1px solid #212121;
     margin-left: 24px;
@@ -576,7 +569,6 @@ ul {
     flex-direction: column;
     margin-left: 24px;
     margin-right: 24px;
-
   }
 
   .contact h3 {
@@ -596,8 +588,6 @@ ul {
   .contact .contact-form {
     margin-left: 24px;
     margin-right: 24px;
- 
-   
   }
 
   .contact-form .input {
@@ -632,8 +622,8 @@ ul {
     margin-top: 24px;
   }
 
-  .submit-btn:hover{
-    background-color: #ffffff;
+  .submit-btn:hover {
+    background-color: #fff;
     border: 1px solid  #ff6b00;
     color: #ff6b00;
     cursor: pointer;
@@ -649,55 +639,30 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-left: calc(50% - 200px/2 + 0.5px);
+    margin-left: 88px;
     width: 200px;
     height: 40px;
     left: 24px;
     top: 430px;
   }
 
-  .contact .social li  {
+  .contact .social li {
     width: 24px;
     height: 24px;
     left: 20%;
     right: 20%;
     top: 20%;
     bottom: 20%;
-  
-  }
-.contact .social i{
-  color: #505F79;
-}
-  .contact .social #github-icon {
-    background-image: url("../images/icons/github-icon.svg");
-    background-repeat: no-repeat;
   }
 
-  .contact .social #linkedin-icon {
-    background-image: url("../images/icons/linkedin-icon.svg");
-    background-repeat: no-repeat;
-  }
-
-  .contact .social #anglelist-icon {
-    background-image: url("../images/icons/Icon\ -\ Angelist.svg");
-    background-repeat: no-repeat;
-  }
-
-  .contact .social #twitter-icon {
-    background-image: url("../images/icons/twitter-icon.svg");
-    background-repeat: no-repeat;
-  }
-
-  .contact .social #medium-icon {
-    background-image: url("../images/icons/medium-icon.svg");
-    background-repeat: no-repeat;
+  .contact .social i {
+    color: #505f79;
   }
 
   .contact .social-hr {
     border-radius: 10px;
     border: 3px solid #0d151e;
-    margin-left:  100px;
-    margin-right:  100px;
-    
+    margin-left: 120px;
+    margin-right: 80px;
   }
 }
