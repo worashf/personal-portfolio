@@ -39,7 +39,7 @@
                     </ul>
                 </section>
 
-  <!--- recent work section-->
+
 
        <section class ="recent-work-container">
         <h2 class ="recent-work-title">My Recent Works</h2>
@@ -55,10 +55,10 @@
                     an unknown printer took a standard dummy text.</p>
             
             <ul class ="post-tools">
-               <li class="tools-css">css</li>
-               <li id="toots-img-html">html</li>
-               <li id="toots-img-bootstrap">bootstrap</li>
-               <li id="toots-img-ruby">Ruby</li>
+               <li class="technologies">css</li>
+               <li class="technologies">html</li>
+               <li class="technologies">bootstrap</li>
+               <li class="technologies">Ruby</li>
             </ul>
             <button type="button" class="post-button">See Project</button>
            </article>
@@ -228,10 +228,11 @@
        <section class="contact">
           <h3> I'm always interested in hearing about new projects,
               so if you'd like to chat please get in touch.</h3>
-              <form class="contact-form">
-                 <input type="text" placeholder="Full name" class="input">
-                 <input type="text" placeholder="Email address" class="input">
-                 <textarea  cols="30" rows="10" placeholder="Enter text here"></textarea>
+              <form class="contact-form" action="https://formspree.io/f/meqnpglr" method="post">
+                
+                 <input type="text" placeholder="Full name" class="input" maxlength="30" required>
+                 <input type="email" placeholder="Email address" class="input" required>
+                 <textarea  cols="30" rows="10" placeholder="Enter text here" maxlength ="500" required></textarea>
                  <input type="submit" value="Get in touch" class="btn">
 
               </form>
