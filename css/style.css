@@ -20,7 +20,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     background: #3c3a39;
-    width: 375px;
+    width: 100%;
     height: 92px;
     left: 0;
     top: 0;
@@ -71,17 +71,17 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 375px;
+    width: 100%;
     height: 590px;
     left: 0;
     top: 92px;
     background: #1c1a19;
 
-    /* position: absolute; */
+   
   }
 
   .head-line .name-description h1 {
-    width: 327px;
+    
     height: 124px;
     left: 24px;
     top: 120px;
@@ -98,7 +98,7 @@ ul {
   }
 
   .head-line .profession {
-    width: 327px;
+    
     height: 27px;
     left: 24px;
     margin-bottom: 0;
@@ -115,7 +115,7 @@ ul {
   }
 
   .head-line .description {
-    width: 327px;
+
     height: 123px;
     left: 24px;
     top: 295px;
@@ -185,7 +185,7 @@ ul {
   }
 
   .recent-work-title {
-    width: 327px;
+  
     height: 83px;
     left: 0;
     top: 120px;
@@ -200,7 +200,7 @@ ul {
   }
 
   .hr {
-    width: 327px;
+   
     margin-top: 0;
     border: 1px solid #212121;
     margin-left: 24px;
@@ -213,7 +213,7 @@ ul {
   }
 
   .recent-img {
-    width: 327px;
+    width: 100%;
     height: 237px;
     margin-top: 80px;
     margin-left: 24px;
@@ -223,7 +223,6 @@ ul {
   .multi-post-title {
     margin-left: 24px;
     margin-right: 24px;
-    width: 327px;
     height: 36px;
     font-family: 'Crete Round', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -420,7 +419,7 @@ ul {
   }
 
   .about-me .hr {
-    width: 327px;
+    /* width: 327px; */
     border: 1px solid #fff;
     margin-top: 209px;
     margin-left: 24px;
@@ -576,6 +575,8 @@ ul {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
+    margin-right: 24px;
+
   }
 
   .contact h3 {
@@ -589,11 +590,14 @@ ul {
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 120px;
+    width: 100%;
   }
 
   .contact .contact-form {
     margin-left: 24px;
     margin-right: 24px;
+ 
+   
   }
 
   .contact-form .input {
@@ -601,12 +605,14 @@ ul {
     border-bottom: 1px solid #dbd8d7;
     padding: 10px;
     margin-top: 24px;
+    width: 100%;
   }
 
   .contact-form textarea {
     border: 0;
     background: #fbf8f7;
     margin-top: 24px;
+    width: 100%;
   }
 
   .contact-form .btn {
@@ -621,7 +627,8 @@ ul {
     line-height: 24px;
     color: #fff;
     border: 0;
-    margin-left: 50px;
+    margin-left: 122px;
+    margin-right: 122px;
     margin-top: 24px;
   }
 
@@ -641,7 +648,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-left: 88px;
+    margin-left: calc(50% - 200px/2 + 0.5px);
     width: 200px;
     height: 40px;
     left: 24px;
@@ -683,9 +690,10 @@ ul {
   }
 
   .contact .social-hr {
+    width: 134px;
     border-radius: 10px;
     border: 5px solid #0d151e;
-    margin-left: 150px;
-    margin-right: 120px;
+    margin-left:  calc(50% - 134px/2 - 0.5px);
+    /* margin-right: 120px; */
   }
 }
