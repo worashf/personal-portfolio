@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
 </head>
 <body>
     <header>
@@ -39,12 +45,11 @@
                     </ul>
                 </section>
 
-  <!--- recent work section-->
+
 
        <section class ="recent-work-container">
         <h2 class ="recent-work-title">My Recent Works</h2>
           <div class="hr"></div>
-        <hr>
            <article class ="post-container">
             <div class ="recent-img"><img src="./images/post-img.svg" alt ="recent post"></div>
             <h3 class="multi-post-title"> Multi Post Stories</h3>
@@ -55,10 +60,10 @@
                     an unknown printer took a standard dummy text.</p>
             
             <ul class ="post-tools">
-               <li class="tools-css">css</li>
-               <li id="toots-img-html">html</li>
-               <li id="toots-img-bootstrap">bootstrap</li>
-               <li id="toots-img-ruby">Ruby</li>
+               <li class="technologies">css</li>
+               <li class="technologies">html</li>
+               <li class="technologies">bootstrap</li>
+               <li class="technologies">Ruby</li>
             </ul>
             <button type="button" class="post-button">See Project</button>
            </article>
@@ -228,27 +233,28 @@
        <section class="contact">
           <h3> I'm always interested in hearing about new projects,
               so if you'd like to chat please get in touch.</h3>
-              <form class="contact-form">
-                 <input type="text" placeholder="Full name" class="input">
-                 <input type="text" placeholder="Email address" class="input">
-                 <textarea  cols="30" rows="10" placeholder="Enter text here"></textarea>
-                 <input type="submit" value="Get in touch" class="btn">
+              <form class="contact-form" action="https://formspree.io/f/meqnpglr" method="post">
+                 <input type="text"  name="full-name" id="full-name" placeholder="Full name" class="input" maxlength="30" required>
+                 <input type="email" name="email" id="email" placeholder="Email address" class="input" required>
+                 <textarea  name="message" id="mess0age" placeholder="Enter text here" maxlength ="500" required></textarea>
+                  <button type="submit" class="submit-btn">Get in touch</button>
 
               </form>
-              <div class="hr"></div>
-              <ul class="social">
-               <li id ="github-icon"><a href="#"> </a></li>
-               <li id ="linkedin-icon"><a href="#"> </a></li>
-               <li id ="anglelist-icon"><a href="#">  </a></li>
-               <li id =twitter-icon><a href="#"></a></li>
-               <li id ="medium-icon"><a href="#"> </a></li>
+            </section>
+              <div class="contact-hr"></div> 
+              <ul class="social-link">
+               <li><a href="https://github.com/worashf" target="new" > <i class="fab fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/worash-abocherugn-a02219154/"  target="new"><i class="fab fa-linkedin-in"></i> </a></li>
+               <li><a href="#" target="new"> <i class="fab fa-angellist"></i></a></li>
+               <li><a href="https://twitter.com/WorashAboche"><i class ="fab fa-twitter"></i></a></li>
+               <li><a href="#"> <i class="fab fa-medium"></i></a></li>
               
            </ul>
            <div class="social-hr"></div>
             
 
 
-       </section>
+   
 
  
        

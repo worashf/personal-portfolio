@@ -6,19 +6,25 @@
 > Description the project.
 ## Built With
 
-- HTML and CSS
-
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML5 
+- CSS3
 
 
 ## Getting Started
 
-**This is personal portfolio website mobile version project.**
-**Built  for telling my experiance, skills and my completed project when finished**
+ To get the copy of this project in your computer,clone this repository or just download it.
 
+### Prerequisites
+* Code editor like vs code
+* node js installed
+
+### Setup
+* Download or clone the repository 
+* Open the folder in  your IDE
+* Install the dependencies
+* Open the index.html in your browser and check it
+* Add your addition
+* Push to your github or deploy to cloud
 
 
 
