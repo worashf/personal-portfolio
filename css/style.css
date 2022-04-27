@@ -594,14 +594,14 @@ ul {
     border-bottom: 1px solid #dbd8d7;
     padding: 10px;
     margin-top: 24px;
-    width: 327px;
+    width: 100%;
   }
 
   .contact-form textarea {
     border: 0;
     background: #fbf8f7;
     margin-top: 24px;
-    width: 327px;
+    width: 100%;
     height: 114px;
   }
 
@@ -628,12 +628,14 @@ ul {
     cursor: pointer;
   }
 
-  .contact .hr {
+  .contact-hr {
     margin-top: 124px;
     border: 1px solid #dfe1e6;
+    width: 100%;
+    margin-left: 0;
   }
 
-  .contact ul.social {
+  ul.social-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -645,7 +647,7 @@ ul {
     top: 430px;
   }
 
-  .contact .social li {
+  ul.social-link li {
     width: 24px;
     height: 24px;
     left: 20%;
@@ -654,14 +656,14 @@ ul {
     bottom: 20%;
   }
 
-  .contact .social i {
+  ul.social-link i {
     color: #505f79;
   }
 
-  .contact .social-hr {
+  .social-hr {
     border-radius: 10px;
     border: 3px solid #0d151e;
     margin-left: 120px;
-    margin-right: 80px;
+    margin-right: 140px;
   }
 }
