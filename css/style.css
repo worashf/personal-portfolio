@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700;700&display=swap');
 
+* {
+  overflow-x: hidden;
+}
+
 html {
   box-sizing: border-box;
   margin: 0;
@@ -24,8 +28,6 @@ ul {
     height: 92px;
     left: 0;
     top: 0;
-
-    /* position: absolute; */
   }
 
   .main-nav .logo {
@@ -412,7 +414,6 @@ ul {
   }
 
   .about-me .hr {
-    /* width: 327px; */
     border: 1px solid #fff;
     margin-top: 209px;
     margin-left: 24px;
