@@ -75,9 +75,10 @@ ul {
 .head-line {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: 590px;
+  height: 750px;
   left: 0;
   top: 92px;
   background: #1c1a19;
@@ -88,9 +89,6 @@ ul {
 }
 
 .head-line .my-description h1 {
-
-  left: 24px;
-  top: 120px;
   margin-bottom: 0;
   margin-left: 24px;
   margin-right: 24px;
@@ -104,7 +102,6 @@ ul {
 }
 
 .head-line .profession {
-  height: 27px;
   left: 24px;
   margin-bottom: 0;
   margin-top: 0;
@@ -119,10 +116,8 @@ ul {
   color: #fff5e1;
 }
 
-.head-line .description {
-  height: 123px;
-  left: 24px;
-  top: 295px;
+.my-description .description {
+  width: 327px;
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -131,7 +126,6 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-
 }
 
 .head-line ul {
@@ -139,7 +133,7 @@ ul {
   flex-direction: row;
   margin-left: 24px;
   margin-right: 24px;
-  width: 200px;
+  margin-bottom: 5%;
 }
 
 .head-line ul li {
@@ -147,11 +141,9 @@ ul {
 }
 
 .head-line ul li a i {
-
   width: 50px;
   height: 30px;
-  color: #CFCFCF;
-
+  color: #cfcfcf;
 }
 
 .recent-work-container {
@@ -201,7 +193,6 @@ ul {
 .multi-post-title {
   margin-left: 24px;
   margin-right: 24px;
-
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -233,7 +224,7 @@ ul {
   margin-bottom: 12px;
 }
 
-.post-tools li {
+.post-tools .technologies {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -275,7 +266,6 @@ ul {
 
 .story-container h3 {
   width: 295px;
-
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -402,12 +392,14 @@ ul {
   margin-right: 24px;
   margin-bottom: 0;
 }
-.framework-skill{
+
+.framework-skill {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:flex-start;
+  align-items: flex-start;
 }
+
 .languages {
   color: #fff;
   margin-left: 86px;
@@ -556,7 +548,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-left: 10px;
   margin-right: 20px;
   width: 100%;
@@ -572,7 +564,6 @@ ul {
   color: #172b4d;
   margin-left: 24px;
   margin-right: 24px;
-
 }
 
 .contact .contact-form {
@@ -647,7 +638,7 @@ ul.social-link li {
   bottom: 20%;
 }
 
-ul.social-link i {
+ul.social-link .icon {
   color: #505f79;
 }
 
@@ -665,7 +656,6 @@ ul.social-link i {
     align-items: center;
     background: #3c3a39;
     width: 100%;
-
   }
 
   .main-nav .logo {
@@ -691,7 +681,7 @@ ul.social-link i {
   }
 
   .main-nav .nav-link li a {
-    color: #FFF;
+    color: #fff;
     margin-left: 12px;
     margin-right: 12px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -700,7 +690,6 @@ ul.social-link i {
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-
   }
 
   .main-nav .menu {
@@ -712,9 +701,7 @@ ul.social-link i {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 590px;
     background: #1c1a19;
-
   }
 
   .head-line ul {
@@ -730,28 +717,21 @@ ul.social-link i {
     padding-top: 10px;
     width: 50px;
     height: 24px;
-    color: #CFCFCF;
+    color: #cfcfcf;
     font-size: 18px;
-
   }
 
   .head-line .my-description {
     max-width: 566px;
     width: 100%;
-    margin-top: 120px;
-    margin-right: 100px;
     order: 2;
-
   }
-
 
   #head-line-backgroud {
     background-image: url(../images/Illustration-header.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: auto 98%;
-
-
   }
 
   .recent-work-container {
@@ -761,14 +741,11 @@ ul.social-link i {
 
   .work-title-container {
     display: flex;
-
-
   }
 
   .recent-work-title {
     width: 315px;
     margin-right: 10px;
-
   }
 
   .work-title-container .hr {
@@ -782,7 +759,6 @@ ul.social-link i {
     display: flex;
     margin-top: 30px;
     align-self: center;
-
   }
 
   .recent-img {
@@ -792,14 +768,10 @@ ul.social-link i {
 
   .recent-img img {
     width: 100%;
-
-
   }
 
   .container .post-container {
     width: 448px;
-
-
   }
 
   .post-container .post-tools {
@@ -813,21 +785,19 @@ ul.social-link i {
     margin-top: 24px;
     row-gap: 24px;
     margin-left: 10px;
-   
-
   }
 
- .grid-container .item1{
-   background-color: #fff;
-   background:  url(../images/story-img.svg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 84px 0 0 0;
+  .grid-container .item1 {
+    background: url(../images/story-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 84px 0 0 0;
+  }
 
- }
-.grid-container :nth-child(1) .story-btn{
-  margin-top: 56%;
-}
+  .grid-container :nth-child(1) .story-btn {
+    margin-top: 56%;
+  }
+
   .grid-container :nth-child(1) p,
   .grid-container :nth-child(1) h3,
   .grid-container :nth-child(1) ul {
@@ -853,58 +823,63 @@ ul.social-link i {
   .grid-container :nth-child(6) .story-btn {
     display: none;
   }
+
   .about-container {
     display: flex;
     flex-direction: column;
-   
   }
- .about-container .framework-skill{
-  display: flex;
-  flex-direction: row;
-   justify-content: space-between;
-    align-items: center;
+
+  .about-container .framework-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
-
   }
 
-.about-me h3,
-.about-me .about-content {
+  .about-me .me,
+  .about-me .about-content {
     margin-left: 24px;
     width: 50%;
-   } 
-   .about-me .hr{
-     margin-left: 124px;
-     margin-right: 5%;
-   }
+  }
+
+  .about-me .hr {
+    margin-left: 124px;
+    margin-right: 5%;
+  }
+
   .about-me {
     background-image: url(../images/illustration-about-me.svg);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 50% 90%;
   }
-  .contact{
+
+  .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  .contact h3{
+
+  .contact .contact-title {
     width: 40%;
- 
   }
-  .contact form{
+
+  .contact form {
     margin-top: 120px;
   }
-  ul.social-link{
-  justify-content: center;
+
+  ul.social-link {
+    justify-content: center;
     width: 100%;
-  
   }
-  ul.social-link li{
+
+  ul.social-link li {
     margin: 0 10px;
   }
-.social-hr{
-  display: none;
-}
 
+  .social-hr {
+    display: none;
+  }
 }
