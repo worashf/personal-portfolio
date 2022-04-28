@@ -811,7 +811,9 @@ ul.social-link i {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 24px;
-    row-gap: 30px;
+    row-gap: 24px;
+    margin-left: 10px;
+   
 
   }
 
@@ -865,12 +867,13 @@ ul.social-link i {
 
   }
 
- .about-container .framework-skill
-   .about-me p,
-   .about-me h3{
-    margin-right: 50%;
+.about-me h3,
+.about-me .about-content {
+    margin-left: 24px;
+    width: 50%;
    } 
    .about-me .hr{
+     margin-left: 124px;
      margin-right: 5%;
    }
   .about-me {
@@ -892,6 +895,16 @@ ul.social-link i {
   .contact form{
     margin-top: 120px;
   }
-
+  ul.social-link{
+  justify-content: center;
+    width: 100%;
+  
+  }
+  ul.social-link li{
+    margin: 0 10px;
+  }
+.social-hr{
+  display: none;
+}
 
 }
