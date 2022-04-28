@@ -339,9 +339,8 @@ ul {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
-
-  margin-left: 24px;
-  margin-right: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 120px;
 }
 
@@ -400,14 +399,19 @@ ul {
   border: 1px solid #fff;
   margin-top: 209px;
   margin-left: 24px;
+  margin-right: 24px;
   margin-bottom: 0;
 }
-
+.framework-skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+}
 .languages {
   color: #fff;
   margin-left: 86px;
-  margin-top: 50px;
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .languages h4 .icon {
@@ -551,6 +555,8 @@ ul {
 .contact {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
   margin-left: 10px;
   margin-right: 20px;
   width: 100%;
@@ -566,7 +572,7 @@ ul {
   color: #172b4d;
   margin-left: 24px;
   margin-right: 24px;
-  margin-top: 120px;
+
 }
 
 .contact .contact-form {
@@ -845,17 +851,35 @@ ul.social-link i {
   .grid-container :nth-child(6) .story-btn {
     display: none;
   }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+ .about-container .framework-skill{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+  }
+
+ .about-container .framework-skill
    .about-me p,
    .about-me h3{
-     width: 556px;
+    margin-right: 50%;
    } 
+   .about-me .hr{
+     margin-right: 5%;
+   }
   .about-me {
     background-image: url(../images/illustration-about-me.svg);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 50% 90%;
   }
-
+ 
 
 
 }
