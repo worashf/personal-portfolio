@@ -879,7 +879,19 @@ ul.social-link i {
     background-position: right top;
     background-size: 50% 90%;
   }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact h3{
+    width: 40%;
  
+  }
+  .contact form{
+    margin-top: 120px;
+  }
 
 
 }
