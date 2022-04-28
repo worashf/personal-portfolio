@@ -58,6 +58,7 @@ ul {
   0% {
     transform: rotate(360deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -197,6 +198,10 @@ ul {
   margin-right: 24px;
 }
 
+.recent-img:hover {
+  transform: scale(1.09);
+}
+
 .story-container-one {
   display: none;
 }
@@ -260,8 +265,14 @@ ul {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  border: 0;
   margin-bottom: 24px;
   margin-left: 24px;
+  transition: background 0.5s ease-out;
+}
+
+.post-button:hover {
+  background: #b67445;
 }
 
 .story-container {
@@ -575,6 +586,11 @@ ul {
   color: #172b4d;
   margin-left: 24px;
   margin-right: 24px;
+  transition: transform 0.5s ease-out;
+}
+
+.contact h3:hover {
+  transform: translateX(2%);
 }
 
 .contact .contact-form {
@@ -685,7 +701,7 @@ ul.social-link .icon {
     font-size: 18px;
     line-height: 24px;
     animation-name: loadlogo;
-    animation-duration: 1s;  
+    animation-duration: 1s;
     text-align: center;
   }
 
@@ -703,7 +719,7 @@ ul.social-link .icon {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    transition: 0.5s;    
+    transition: 0.5s;
     text-align: center;
   }
 
