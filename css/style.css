@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700&display=swap');
 
 * {
   overflow-x: hidden;
@@ -65,8 +65,8 @@ ul {
   #head-line-backgroud {
     background-image: url(../images/illustration-header-mobile.svg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
     background-position: 100% 100%;
+  
   }
 
   .head-line {
@@ -266,7 +266,7 @@ ul {
     height: 48px;
     left: 0;
     top: 259px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -338,7 +338,7 @@ ul {
   .story-container .story-btn {
     padding: 0;
     height: 48px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     border: 0;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -374,7 +374,7 @@ ul {
     font-size: 72px;
     line-height: 88px;
     letter-spacing: 0.37px;
-    color: #ff6b00;
+    color: rgb(214, 97, 1);
     margin-top: 120px;
     margin-left: 24px;
     margin-right: 24px;
@@ -397,7 +397,7 @@ ul {
   .about-me .resume {
     width: 161px;
     height: 48px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     border: 0;
     margin-left: 24px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -437,7 +437,7 @@ ul {
     display: block;
     width: 18px;
     height: 18px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     transform: rotate(-45deg);
   }
 
@@ -485,7 +485,7 @@ ul {
     display: block;
     width: 18px;
     height: 18px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
   }
 
   .frameworks h4 {
@@ -534,7 +534,7 @@ ul {
     height: 18px;
     left: 12px;
     top: 11px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     border-radius: 150px;
   }
 
@@ -609,7 +609,7 @@ ul {
     width: 131px;
     height: 48px;
     left: 98px;
-    background: #ff6b00;
+    background: rgb(214, 97, 1);
     font-family: "Inter", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -623,8 +623,8 @@ ul {
 
   .submit-btn:hover {
     background-color: #fff;
-    border: 1px solid  #ff6b00;
-    color: #ff6b00;
+    border: 1px solid  rgb(214, 97, 1);
+    color: rgb(214, 97, 1);
     cursor: pointer;
   }
 
