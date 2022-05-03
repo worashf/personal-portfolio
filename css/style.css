@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&family=Inter:wght@300;400;700&display=swap');
 
 * {
   overflow-x: hidden;
@@ -110,7 +110,7 @@ ul {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #c25202;
 }
 
 .head-line .profession {
@@ -258,7 +258,7 @@ ul {
   height: 48px;
   left: 0;
   top: 259px;
-  background: #ff6b00;
+  background: #ca5704;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
