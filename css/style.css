@@ -110,7 +110,7 @@ ul {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #c25202;
+  color: #A85400;
 }
 
 .head-line .profession {
@@ -224,7 +224,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091e42;
+  color: #A85400;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 12px;
@@ -250,7 +250,7 @@ ul {
   width: 56px;
   border: 1px solid #8993a4;
   margin-left: 0;
-  color: #091e42;
+  color: #A85400;
 }
 
 .post-button {
@@ -258,7 +258,7 @@ ul {
   height: 48px;
   left: 0;
   top: 259px;
-  background: #0329d4;
+  background: #A85400;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -335,7 +335,7 @@ ul {
 .story-btn {
   padding: 0;
   height: 48px;
-  background: #0329d4;
+  background: #A85400;
   border: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -370,7 +370,7 @@ ul {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #A85400;
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px;
@@ -393,7 +393,7 @@ ul {
 .about-me .resume {
   width: 161px;
   height: 48px;
-  background: #0329d4;
+  background: #A85400;
   border: 0;
   margin-left: 24px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -440,7 +440,7 @@ ul {
   display: block;
   width: 18px;
   height: 18px;
-  background: #ff6b00;
+  background: #A85400;
   transform: rotate(-45deg);
 }
 
@@ -488,7 +488,7 @@ ul {
   display: block;
   width: 18px;
   height: 18px;
-  background: #ff6b00;
+  background: #A85400;
 }
 
 .frameworks h4 {
@@ -537,7 +537,7 @@ ul {
   height: 18px;
   left: 12px;
   top: 11px;
-  background: #ff6b00;
+  background: #A85400;
   border-radius: 150px;
 }
 
@@ -583,7 +583,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172b4d;
+  color: #A85400;
   margin-left: 24px;
   margin-right: 24px;
   transition: transform 0.5s ease-out;
@@ -618,7 +618,7 @@ ul {
   width: 131px;
   height: 48px;
   left: 98px;
-  background: #0329d4;
+  background: #A85400;
   font-family: "Inter", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -632,8 +632,8 @@ ul {
 
 .submit-btn:hover {
   background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
+  border: 1px solid #A85400;
+  color: #A85400;
   cursor: pointer;
 }
 
