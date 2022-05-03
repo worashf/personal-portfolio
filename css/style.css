@@ -111,6 +111,7 @@ ul {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #a85400;
+  overflow: hidden;
 }
 
 .head-line .profession {
@@ -311,6 +312,7 @@ ul {
   width: 295px;
   height: 87px;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .story-container ul {
@@ -375,6 +377,7 @@ ul {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .about-content {
@@ -441,7 +444,7 @@ ul {
   width: 18px;
   height: 18px;
   background: #a85400;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 .languages h4 {
