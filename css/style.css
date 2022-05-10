@@ -18,19 +18,12 @@ ul {
   list-style: none;
 }
 
-.nav-link {
-  display: none;
-}
-
 .main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #3c3a39;
   width: 100%;
-  height: 92px;
-  left: 0;
-  top: 0;
 }
 
 .main-nav .logo {
@@ -39,6 +32,10 @@ ul {
   padding: 10px 10px;
   overflow: hidden;
   margin-left: 8px;
+}
+
+.logo-hide {
+  visibility: hidden;
 }
 
 .main-nav .logo p {
@@ -64,17 +61,95 @@ ul {
   }
 }
 
-.main-nav nav .menu {
-  width: 20px;
-  height: 24px;
-  left: 8px;
-  top: 8px;
-  margin-right: 10px;
+nav .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.main-nav .menu:hover {
-  width: 26px;
-  height: 26px;
+.menu .bar {
+  width: 30px;
+  height: 3px;
+  margin: 6px 10px;
+  background-color: #dfe1e6;
+  cursor: pointer;
+}
+
+.open .dash1 {
+  transform: rotate(-45deg)  translate(6px, 6px);
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  margin-right: 2%;
+}
+
+.open .dash2 {
+  opacity: 0;
+}
+
+.open .dash3 {
+  transform: rotate(45deg)  translate(6px, -6px);
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+nav .nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  position: fixed;
+  top: 10%;
+  left: 0;
+}
+
+nav .nav-link li {
+  padding: 10px;
+}
+
+nav .nav-link li a {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.nav-link li a::after {
+  content: "";
+  display: block;
+  width: 400px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 5px auto;
+}
+
+.cover-header {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #3c3a39;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.hide-nav {
+  opacity: 0;
+}
+
+.open .main-nav .logo {
+  display: none;
+}
+
+.message-hiden {
+  visibility: hidden;
 }
 
 #head-line-backgroud {
@@ -688,6 +763,14 @@ ul.social-link .icon {
     width: 100%;
   }
 
+  .hide {
+    visibility: visible;
+  }
+
+  .nav-link li a::after {
+    display: none;
+  }
+
   .main-nav .logo {
     left: 12px;
     top: 10px;
@@ -711,6 +794,17 @@ ul.social-link .icon {
   .main-nav .nav-link {
     display: flex;
     margin-right: 151px;
+    flex-direction: row;
+    position: static;
+    height: auto;
+  }
+
+  .cover-header {
+    height: auto;
+  }
+
+  .logo-hide {
+    visibility: visible;
   }
 
   .main-nav .nav-link li a {
