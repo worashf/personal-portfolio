@@ -46,6 +46,3 @@ contactLink.addEventListener('click', toggleContactLink);
 
 menu.addEventListener('click', toggleMenu);
 portfolioLink.addEventListener('click', togglePortfolioLink);
-
-
-

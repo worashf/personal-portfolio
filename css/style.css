@@ -145,10 +145,10 @@ nav .nav-link li a {
 .hide {
   visibility: hidden;
 }
-.hide-nav{
-opacity: 0;
-}
 
+.hide-nav {
+  opacity: 0;
+}
 
 .open .main-nav .logo {
   display: none;
