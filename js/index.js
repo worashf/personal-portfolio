@@ -24,6 +24,26 @@ function togglePortfolioLink() {
   messageIcon.classList.toggle('message-hiden');
 }
 
+function toggleContactLink() {
+  menu.classList.remove('open');
+
+  nav.classList.toggle('hide');
+  messageIcon.classList.toggle('message-hiden');
+  mainNav.classList.remove('cover-header');
+  logo.classList.remove('logo-hide');
+}
+
+function toggleAboutLink() {
+  menu.classList.remove('open');
+
+  nav.classList.toggle('hide');
+  messageIcon.classList.toggle('message-hiden');
+  mainNav.classList.remove('cover-header');
+  logo.classList.remove('logo-hide');
+}
+aboutLink.addEventListener('click', toggleAboutLink);
+contactLink.addEventListener('click', toggleContactLink);
+
 menu.addEventListener('click', toggleMenu);
 portfolioLink.addEventListener('click', togglePortfolioLink);
 
