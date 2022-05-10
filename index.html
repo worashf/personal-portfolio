@@ -20,15 +20,19 @@
                 <a href="#"><p>Worash Aboche</p></a>  
             </div>
             <nav>
-               <ul class="nav-link">
-                  <li><a href="#portfolio" role="link"  aria-label="portfolio link">Portfolio</a></li>
-                  <li><a href="#about"  role="link" aria-label="about link">About </a></li>
-                  <li><a href="#contact"  role="link"  aria-label="contact link" >Contact</a></li>
-                  <li><a href="#"  role="link"  aria-label="message icon"><i class="fas fa-envelope"></i></a></li>
+               <ul class="nav-link hide">
+                  <li><a href="#portfolio"  id ="portfolio-link" role="link"  aria-label="portfolio link">Portfolio</a></li>
+                  <li><a href="#about-container"  id="about-link" role="link" aria-label="about link">About </a></li>
+                  <li><a href="#contact-conatiner" id="contact-link" role="link"  aria-label="contact link" >Contact</a></li>
+                  <li><a href="#"  role="link" id="message-envelope"  aria-label="message icon"><i class="fas fa-envelope "></i></a></li>
                </ul>
            </nav>
-            <div class="menu">
-               <img id ="hamberger" src ="./images/Icon-Menu.svg" alt="menu" > 
+            <div id ="hamburger" class="menu" >
+              
+               <div class="dash1 bar "></div>
+               <div class="dash2 bar"></div>
+               <div class="dash3 bar"></div>
+           
            </div>
         </div>
  </header>
@@ -55,7 +59,7 @@
 
 
 
-       <section class ="recent-work-container">
+       <section class ="recent-work-container" id="portfolio">
           <div class="work-title-container">
             <h2 class ="recent-work-title">My Recent Works</h2>
             <div class="hr"></div>
@@ -204,7 +208,7 @@
          </div>
       </section> 
       
-       <section class="about-container">
+       <section class="about-container" id="about-container">
          <article class="about-me">
                <h3 class="me"> About me</h3>
                <p class="about-content">Hello I’m a software developer! I can help you build a product ,
@@ -248,6 +252,8 @@
              
 
        </section>
+
+       <div id="contact-conatiner">
        <section class="contact">
           <h3 class="contact-title"> I'm always interested in hearing about new projects,
               so if you'd like to chat please get in touch.</h3>
@@ -269,7 +275,7 @@
               
            </ul>
            <div class="social-hr"></div>
-            
+         </div>
 
 
    
@@ -279,6 +285,8 @@
 
 
         </main>
+
+        <script src="js/index.js"></script>
 
 </body>
 </html>
