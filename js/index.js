@@ -14,11 +14,18 @@ function toggleMenu() {
   messageIcon.classList.toggle('message-hiden');
 }
 
+function togglePortfolioLink() {
+  menu.classList.remove('open');
 
+  nav.classList.toggle('hide');
 
+  mainNav.classList.remove('cover-header');
+  logo.classList.remove('logo-hide');
+  messageIcon.classList.toggle('message-hiden');
+}
 
 menu.addEventListener('click', toggleMenu);
-
+portfolioLink.addEventListener('click', togglePortfolioLink);
 
 
 
