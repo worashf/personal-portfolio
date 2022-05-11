@@ -758,8 +758,8 @@ ul.social-link .icon {
   border: 1px solid #dfe1e6;
   width: 90%;
   max-width: 90%;
-  height: 90vh;
-  max-height: 90%;
+  height: 95vh;
+  max-height: 95%;
   padding: 10px;
   margin: 0 auto;
 }
@@ -812,6 +812,7 @@ ul.social-link .icon {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-bottom: 10px;
 }
 
 #live-link,
@@ -826,11 +827,23 @@ ul.social-link .icon {
   line-height: 24px;
   background: #ff6b00;
   margin-top: 20px;
+  overflow: hidden;
 }
 
-.desc-container {
+#project-image {
+  height: 200px;
   width: 100%;
-  height: auto;
+}
+
+.modal-grid .descp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-group {
+  display: flex;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1116,15 +1129,11 @@ ul.social-link .icon {
 
   #project-image {
     margin-right: 20px;
-    height: 448px;
+    height: 300px;
+    width: 100%;
   }
 
-  .desc-container {
-    width: 50%;
-    height: 336px;
-  }
-
-  #modal-description {
-    margin-bottom: 100px;
+  .descp-container {
+    height: 300px;
   }
 }
