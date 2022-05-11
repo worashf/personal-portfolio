@@ -2,7 +2,7 @@ const projects = [
   {
     projectId: 'project-1',
     projectName: 'Multi Post Stories',
-    projectImage: './images/post-img.svg',
+    projectImage: './images/first-project.png',
     languages: [
       'CSS',
       'HTML',
@@ -16,7 +16,7 @@ const projects = [
   }, {
     projectId: 'project-2',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -31,7 +31,7 @@ const projects = [
   {
     projectId: 'project-3',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -46,7 +46,7 @@ const projects = [
   {
     projectId: 'project-4',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -61,7 +61,7 @@ const projects = [
   {
     projectId: 'project-5',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -76,7 +76,7 @@ const projects = [
   {
     projectId: 'project-6',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -91,7 +91,7 @@ const projects = [
   {
     projectId: 'project-7',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/story-img.svg',
+    projectImage: './images/second-project.png',
     languages: [
 
       'HTML',
@@ -101,7 +101,7 @@ const projects = [
     ],
     liveLink: '',
     sourceLink: '',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    description: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   },
 ];
 
