@@ -308,10 +308,11 @@ nav .nav-link li a {
 
 .post-tools {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 0;
   margin-left: 0;
-  padding-left: 24px;
+  padding-left: 10px;
   padding-right: 24px;
   margin-bottom: 12px;
 }
@@ -323,9 +324,8 @@ nav .nav-link li a {
   font-size: 15px;
   line-height: 20px;
   padding: 10px;
-  width: 56px;
   border: 1px solid #8993a4;
-  margin-left: 0;
+  margin: 0 5px;
   color: #a85400;
 }
 
@@ -385,7 +385,6 @@ nav .nav-link li a {
   color: #fff;
   margin: 12px 16px;
   width: 295px;
-  height: 87px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -410,7 +409,6 @@ nav .nav-link li a {
 }
 
 .story-btn {
-  padding: 0;
   height: 48px;
   background: #a85400;
   border: 0;
@@ -928,7 +926,7 @@ ul.social-link .icon {
   }
 
   .grid-container :nth-child(1) .story-btn {
-    margin-top: 56%;
+    margin-top: 59%;
   }
 
   .grid-container :nth-child(1) p,
@@ -955,6 +953,19 @@ ul.social-link .icon {
 
   .grid-container :nth-child(6) .story-btn {
     display: none;
+  }
+
+  .story-container:hover ul {
+    display: none;
+  }
+
+  .story-container:hover .story-btn {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .story-container:hover .story-btn1 {
+    margin-top: 59%;
   }
 
   .about-container {
