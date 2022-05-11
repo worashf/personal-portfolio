@@ -828,6 +828,11 @@ ul.social-link .icon {
   margin-top: 20px;
 }
 
+.desc-container {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .main-nav {
     display: flex;
@@ -1105,10 +1110,21 @@ ul.social-link .icon {
 
   .modal-grid {
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #project-image {
+    margin-right: 20px;
+    height: 448px;
   }
 
   .desc-container {
-    margin: 0 24px 24px 24px;
+    width: 50%;
+    height: 336px;
+  }
+
+  #modal-description {
+    margin-bottom: 100px;
   }
 }
