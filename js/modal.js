@@ -106,7 +106,7 @@
 
 
 
- let projectModal = document.getElementById("project-modal");
+ let projectModal = document.getElementById("modal-container");
  let buttons=document.querySelectorAll("button");
 
 
