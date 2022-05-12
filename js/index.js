@@ -48,7 +48,7 @@ function toggleAboutLink() {
 conatctForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const { value } = email;
-  if (value.match(/^[a-z0-9+_.-]+@[a-z0-9.-]+$/)) {
+  if (value.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
     conatctForm.submit();
   } else {
     errorMessage.textContent = 'Enter email contain only lowercase letter';
