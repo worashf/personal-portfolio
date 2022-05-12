@@ -257,12 +257,12 @@
        <section class="contact">
           <h3 class="contact-title"> I'm always interested in hearing about new projects,
               so if you'd like to chat please get in touch.</h3>
-              <form class="contact-form" action="https://formspree.io/f/meqnpglr" method="post">
+              <form class="contact-form" id="contact-form" action="https://formspree.io/f/meqnpglr" method="post">
                  <input type="text"  name="full-name" id="full-name" placeholder="Full name" class="input" maxlength="30" required>
                  <input type="email" name="email" id="email" placeholder="Email address" class="input" required>
                  <textarea  name="message" id="mess0age" placeholder="Enter text here" maxlength ="500" required></textarea>
                   <button type="submit" class="submit-btn">Get in touch</button>
-
+                    <span id ="error-message"></span>
               </form>
             </section>
               <div class="contact-hr"></div> 
