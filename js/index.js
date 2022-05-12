@@ -52,15 +52,10 @@ conatctForm.addEventListener('submit', (e) => {
     conatctForm.submit();
   } else {
     errorMessage.textContent = 'Enter email contain only lowercase letter';
-    email.style.border = '1px solid red';
     errorMessage.style.color = 'red';
     errorMessage.style.display = 'block';
     errorMessage.style.marginTop = '10px';
     errorMessage.style.fontSize = '20px';
-    setTimeout(() => {
-      errorMessage.style.display = 'none';
-      email.style.border = 0;
-    }, 5000);
   }
   return false;
 });
