@@ -420,6 +420,7 @@ nav .nav-link li a {
   color: #fff;
   text-align: center;
   letter-spacing: 0.03em;
+  transition: all 0.5s;
 }
 
 .about-container {
@@ -752,6 +753,114 @@ ul.social-link .icon {
   margin-right: 140px;
 }
 
+.project-modal {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  width: 90%;
+  max-width: 90%;
+  height: 95vh;
+  padding: 10px;
+  margin: 12px auto;
+}
+
+.modal-container {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  height: 100%;
+  display: none;
+}
+
+.modal-close {
+  float: right;
+  height: 40px;
+  margin-top: 30px;
+  opacity: 0.33;
+  transition: 0.5s;
+  width: 40px;
+  border: 0;
+}
+
+.project-modal #project-name {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.project-modal .languages-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-modal .languages-list li {
+  background: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #dfe1e6;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+}
+
+#modal-description {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 10px;
+}
+
+#live-link,
+#source-link {
+  width: 134px;
+  color: #fff;
+  padding: 16px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#project-image {
+  height: 200px;
+  width: 100%;
+}
+
+.modal-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-grid .descp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-group {
+  display: flex;
+  gap: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .main-nav {
     display: flex;
@@ -1025,5 +1134,43 @@ ul.social-link .icon {
 
   .social-hr {
     display: none;
+  }
+
+  .project-modal {
+    width: 80%;
+    height: 76%;
+    padding-bottom: 20px;
+    margin-top: 120px;
+  }
+
+  .modal-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+  }
+
+  .project-modal #project-name {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .modal-close {
+    margin-top: 10px;
+  }
+
+  #project-image {
+    margin-right: 20px;
+    height: 100%;
+  }
+
+  .descp-container {
+    margin-right: 3px;
+    width: 100%;
+  }
+
+  #modal-description {
+    margin-top: 0;
+    margin-right: 10px;
   }
 }
