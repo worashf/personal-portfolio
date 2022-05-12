@@ -755,13 +755,12 @@ ul.social-link .icon {
 
 .project-modal {
   background: #fff;
-  border: 1px solid #dfe1e6;
+  border: 1px solid hsl(223, 12%, 89%);
   width: 90%;
   max-width: 90%;
-  height: 95vh;
-  max-height: 95%;
-  padding: 10px;
-  margin: 0 auto;
+  height: 98vh;
+  padding: 0 10px;
+  margin: 12px auto;
 }
 
 .modal-container {
@@ -833,6 +832,12 @@ ul.social-link .icon {
 #project-image {
   height: 200px;
   width: 100%;
+}
+
+.modal-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .modal-grid .descp-container {
@@ -1122,7 +1127,9 @@ ul.social-link .icon {
   }
 
   .modal-grid {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -1130,10 +1137,11 @@ ul.social-link .icon {
   #project-image {
     margin-right: 20px;
     height: 300px;
-    width: 100%;
   }
 
   .descp-container {
-    height: 300px;
+    padding: 0 0 10px 20px;
+    margin-right: 10px;
+    width: 100%;
   }
 }
