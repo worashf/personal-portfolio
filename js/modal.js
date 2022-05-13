@@ -135,7 +135,7 @@ function openProjectModal(projectId) {
 
 projectButtons.forEach((projectButton) => {
   const { id } = projectButton;
-  projectButton.addEventListener('click', () => openProjectModal(id));
+  projectButton.addEventListener('click', () => openProjectModal());
 });
 closeBtn.addEventListener('click', () => {
   projectModal.style.display = 'none';
