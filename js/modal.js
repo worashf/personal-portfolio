@@ -2,7 +2,7 @@ const projects = [
   {
     projectId: 'project-1',
     projectName: 'Multi Post Stories',
-    projectImage: './images/first-project.png',
+    projectImage: './images/portfolio.png',
     languages: [
       'CSS',
       'HTML',
@@ -16,7 +16,7 @@ const projects = [
   }, {
     projectId: 'project-2',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/second-project.png',
+    projectImage: './images/capstone-project.png',
     languages: [
 
       'HTML',
@@ -24,14 +24,14 @@ const projects = [
       'Ruby',
 
     ],
-    liveLink: 'https://worashf.github.io/personal-portfolio/',
-    sourceLink: 'https://github.com/worashf/personal-portfolio',
+    liveLink: 'https://worashf.github.io/research-center-website//',
+    sourceLink: 'https://github.com/worashf/research-center-website',
     description: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   },
   {
     projectId: 'project-3',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/second-project.png',
+    projectImage: './images/awesomeBook.png',
     languages: [
 
       'HTML',
@@ -39,14 +39,14 @@ const projects = [
       'Ruby',
 
     ],
-    liveLink: 'https://worashf.github.io/personal-portfolio/',
-    sourceLink: 'https://github.com/worashf/personal-portfolio',
+    liveLink: 'https://worashf.github.io/Awesome-book-class//',
+    sourceLink: 'https://github.com/worashf/Awesome-book-class',
     description: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   },
   {
     projectId: 'project-4',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/second-project.png',
+    projectImage: './images/course-material-access.png',
     languages: [
 
       'HTML',
@@ -54,14 +54,14 @@ const projects = [
       'Ruby',
 
     ],
-    liveLink: 'https://worashf.github.io/personal-portfolio/',
-    sourceLink: 'https://github.com/worashf/personal-portfolio',
+    liveLink: 'https://github.com/worashf/online-course-ware-front-end/',
+    sourceLink: 'https://github.com/worashf/online-course-ware-front-end',
     description: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
   },
   {
     projectId: 'project-5',
     projectName: 'Profesional Art Printing Data',
-    projectImage: './images/second-project.png',
+    projectImage: './images/online-inventory.png',
     languages: [
 
       'HTML',
@@ -69,8 +69,8 @@ const projects = [
       'Ruby',
 
     ],
-    liveLink: 'https://worashf.github.io/personal-portfolio/',
-    sourceLink: 'https://github.com/worashf/personal-portfolio',
+    liveLink: 'https://github.com/worashf/online-inventory-system-frontend/',
+    sourceLink: 'https://github.com/worashf/online-inventory-system-frontend',
     description: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
   },
   {
