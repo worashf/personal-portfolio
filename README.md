@@ -1,9 +1,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal portfolio
+# Personal portfolio 
 
-> Description the project.
+> Personal portfolio website built with HTML5, CSS3 and JavaScript..
 ## Built With
 
 - HTML5 
